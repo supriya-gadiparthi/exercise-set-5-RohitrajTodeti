@@ -28,4 +28,4 @@ data = np.loadtxt(INFILE, delimiter=',')
     processed = data
 
     # Save the output to OUTFILE using numpy routines.
-  np.savetxt(OUTFILE, processed, delimiter=',')
+np.savetxt(OUTFILE, processed, delimiter=',')
